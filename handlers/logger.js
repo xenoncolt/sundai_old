@@ -404,7 +404,7 @@ async function send_log(c, guild, color, title, description, thumb, fieldt, fiel
       .setThumbnail(thumb ? thumb : guild?.iconURL({
         format: "png"
       }))
-      .setFooter(c.getFooter(guild?.name + " | powered by: milrato.eu", guild?.iconURL({
+      .setFooter(c.getFooter(guild?.name, guild?.iconURL({
         format: "png"
       })))
     if(fieldt && fieldv){

@@ -25,8 +25,8 @@ module.exports = {
           .setColor(ee.color)
           .setTitle(client.la[ls].cmds.info.support.title)
           .setDescription(eval(client.la[ls]["cmds"]["info"]["support"]["variable1"]))
-          .setFooter('Clan Bot | powered by milrato.eu', 'https://imgur.com/jPItIw0.gif')
-          .setURL("https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot%20applications.commands")],
+          .setFooter('Discord Bot | powered by Team Galactasx', 'https://cdn.discordapp.com/attachments/870290467122729053/963421924350885938/logo-gx-main-logo.jpg')
+          .setURL(`https://discord.com/api/oauth2/authorize?client_id=${client.id}&permissions=8&scope=bot%20applications.commands`)],
         components: allbuttons
       });
     } catch (e) {
@@ -40,12 +40,4 @@ module.exports = {
     }
   }
 }
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention him / Milrato Development, when using this Code!
- * @INFO
- */
+
