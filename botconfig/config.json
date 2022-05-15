@@ -1,0 +1,48 @@
+{
+    "token": "OTA2MzE1NjM5MzQ4NjU4MjE3.YYW2Ng.u5SiLe478JF4cKYLar8u9vrWplo",
+    "prefix": ".",
+    "ownerIDS": [
+        "709210314230726776"
+    ],
+    "fnbr": "75447690-11e9-4df9-b3b1-72c485f1090d",
+    "fortnitetracker": "658a77a4-f2e5-4a2f-99e7-d16505ade87a",
+    "memer_api": "w799gyN0B9g",
+    "status": {
+        "text": "{membercount} users played {songsplayed} Songs on {guildcount} servers",
+        "text2": "{prefix}help | {commands} commands | Created on {created}",
+        "type": "LISTENING",
+        "url": "https://twitch.tv/xenoncolt"
+    },
+    "clientsettings": {
+        "nodes": [
+            {
+                "host": "usa.lavalink.mitask.tech",
+                "port": 2333,
+                "password": "lvserver"
+            }
+        ]
+    },
+    "spotify": {
+        "clientSecret": "74538ba2d4f14c25a9769256155a9974",
+        "clientID": "754ca453dc774aa5a45e4a1d1a03e847"
+    },
+    "settings": {
+        "COMMENT": "time_delay 0 === insta leave",
+        "leaveOnEmpty_Channel": {
+            "enabled": true,
+            "time_delay": 300000
+        },
+        "LeaveOnEmpty_Queue": {
+            "enabled": true,
+            "time_delay": 300000
+        },
+        "selfDeaf": true
+    },
+    "lyricssettings": {
+        "lyrics_finder": true,
+        "ksoft_api": {
+            "use_this_instead": true,
+            "api_key": "DISABLED"
+        }
+    }
+}
